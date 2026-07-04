@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#add-back {
+    position: absolute;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#add {
+    border:none;
+    border-radius: 10px;
+    width: 9vw;
+    height: 9vw;
+    background-color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+}
+
+#sample {
+    border:none;
+    border-radius: 10px;
+    width: 9vw;
+    height: 9vw;
+    background-color: white;
+    font-size: clamp(8px, 2vw, 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sample-setting {
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
+}
