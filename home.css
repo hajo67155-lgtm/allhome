@@ -29,30 +29,50 @@ body {
 
 .project {
     position: absolute;
-    border: 1px solid black;
-    border-radius: 10px;
     width: 10vw;
     height: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
     background: burlywood;
 }
 
-#sample {
-    border:none;
-    border-radius: 10px;
+.samples {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 9vw;
     height: 9vw;
-    background-color: white;
-    font-size: clamp(8px, 2vw, 30px);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;
+    border-radius: 10px;
 }
 
-#sample-setting {
+.samples-setting {
     position: absolute;
     right: 1vw;
     bottom: 1vw;
+}
+
+.title{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+
+    justify-content:center;
+    align-items:center;
+}
+
+.title-content{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    text-align:center;
 }
