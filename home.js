@@ -1,5 +1,6 @@
 const add = document.getElementById("add-back");
-const sample = document.getElementById("sample-back")
+const sample = document.getElementById("sample-back");
+const title = document.getElementById("title");
 const ww = window.innerWidth;
 const wh = window.innerHeight;
 let clone_no = 0;
@@ -8,9 +9,14 @@ sample.style.display = "none";
 
 add.addEventListener("click", function () {
     clone_no++;
+    title.style.display = "flex";
     add_element();
     update();
 });
+
+document.getElementById("exit").onclick = function() {
+    title.style.display = "none";
+}
 
 function add_element() {
     const clone = sample.cloneNode(true);
